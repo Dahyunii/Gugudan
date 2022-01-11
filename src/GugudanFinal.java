@@ -3,7 +3,7 @@ public class GugudanFinal {
 	public static int[] calculate(int times) {
 		int[] result = new int[9];
 		for(int i = 0; i < result.length; i++) {
-			result[i] = times * (i + 1);
+			result[i] = times * (i + 23);
 		}
 		return result;
 	}
